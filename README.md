@@ -26,6 +26,6 @@ No wireframe was provided but an example of the landing page design was provided
 
 ## Deliverable
 
-The following link to view Horiseon's Landing Page: https://pine-box.github.io/Horiseon/starter/
+The following link to view Horiseon's Landing Page: [https://pine-box.github.io/Horiseon/starter/](https://pine-box.github.io/BobAJobLLC/)
 
 ![Bob-A-Job LLC Landing Page] https://github.com/Pine-Box/Bob-A-Job-LLC/tree/main/Assets
