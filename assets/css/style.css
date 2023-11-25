@@ -1,0 +1,300 @@
+
+:root {
+  --bg-theme: #94cccf;
+  --theme-text: #000000;
+  --link-hover: white;
+}
+
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  line-height: 1;
+  font-family: sans-serif;
+}
+
+​h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: 100%;
+}
+
+​input,
+select,
+option,
+optgroup,
+textarea,
+button,
+pre,
+code {
+font-size: 100%;
+font-family: inherit;
+}
+
+​ol,
+ul {
+list-style: none;
+}
+
+p {
+  margin: 0;
+}
+
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  min-height: 100vh;
+  font-size: 1.5rem;
+  max-width: 90vw;
+  line-height: 1.75;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* header for logo title and nav */
+
+header.flex-container {
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  background-color: var(--theme-text)
+}
+
+header img#avatar{
+  border:var( --bg-theme) solid 5px;
+}
+
+#candidate{
+  padding-right: 10px;
+  padding-left: 20px;
+  flex: 0.4;
+  background-color: var(--bg-theme);
+  text-align: right;
+}
+
+#links {
+  font-size: 2rem;
+  margin-left: auto;
+  min-width: 40%;
+}
+
+a span{
+  background-color: var(--);
+  color: var(--theme-text);
+}
+
+/* nav links transitions */
+nav#links a:hover{
+  color: var(--link-hover);
+}
+
+/* nav links style */
+#links a{
+  padding-left: 10%;
+  color: var(--bg-theme);
+}
+
+/*Banner content */
+
+section#banner{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  background-image: url('/assets/images/02-hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+}
+
+#banner div  h2{
+  padding: 10px;
+  background-color: var(--bg-theme);
+}
+
+/* main sections container*/
+
+/* main sections ABOUT*/
+
+#about-container{
+  display:flex;
+  flex-direction: row;
+  align-items: right;
+}
+
+
+#about-title {
+width: 130px;
+padding-right: 10px;
+  text-align: right;
+}
+
+
+#about-content{
+  border-left: var(--bg-theme) solid 5px;
+  font-size: 1rem;
+  padding: 10px;
+  text-align: justify;
+}
+
+/* main sections WORK*/
+
+main section#work{
+  margin-top: 10px;
+  margin-right: 1px;
+  display: grid;
+  grid-auto-columns: auto;
+  height: 40vh;
+  grid-template-columns: 0.1fr 0.5fr 0.5fr 0.5fr;
+  grid-template-areas: "title work-1 work-1 work-1"
+                       "title work-2 work-3 work-4";
+}
+
+
+#grid-title{
+  margin-right: 10px;
+  padding-right: 10px;
+ text-align: right;
+ border-right: #94cccf solid 5px;
+ grid-area: title;
+}
+
+
+#work-1, #work-2, #work-3, #work-4 {
+  border: var(--bg-theme) solid 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+
+}
+
+#work a{
+   text-decoration: none;
+}
+
+#work a span:hover{
+  color: var(--link-hover)
+}
+
+a span{
+  padding-left: 2%;
+  padding-right: 1%;
+  background-color: var(--bg-theme);
+  color: var(--theme-text);
+  
+}
+
+#work-1:hover{
+  border-color: var(--theme-text);
+}
+
+#work-2:hover{
+  border-color: var(--theme-text);
+}
+
+#work-3:hover{
+  border-color: var(--theme-text);
+}
+
+#work-4:hover{
+  border-color: var(--theme-text);
+}
+
+#work-1{
+  grid-area: work-1;
+  background-image: url("/assets/images/horiseon.png");
+}
+
+#work-2{
+  grid-area: work-2;
+  background-image: url("/assets/images/civil_legal_aid.png");
+}
+
+
+#work-3{
+  grid-area: work-3;
+  background-image: url("/assets/images/courtfinder.png");
+}
+
+#work-4{
+  grid-area: work-4;
+  background-image: url("/assets/images/easyjet.png");
+}
+
+/*work section end */
+
+/* main sections CONTACT*/
+
+#contact-container{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+#contact-title{
+  text-align: right;
+  padding-right: 10px;
+}
+
+#contact-details::selection{
+  background-color: var(--bg-theme);
+  color: white;
+}
+
+#contact-details{
+  margin-left: 10px;
+  padding: 10px;
+  border-left:var(--bg-theme) solid 5px;
+  text-decoration: none;
+}
+
+.copyright {
+  font-size: 1rem;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+
+
+#work-1, #work-2, #work-3, #work-4 {
+  border: var(--bg-theme) solid 2px;
+}
+
+  #work a{
+    font-size: 0.75rem;
+  }
+  #links {
+    font-size: 1.25rem;
+    margin-left: auto;
+    min-width: 40%;
+  }
+
+  main {
+    max-width: 1200px;
+  }
+}
+
+
+
