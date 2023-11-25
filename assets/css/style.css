@@ -155,9 +155,10 @@ main section#work{
   display: grid;
   grid-auto-columns: auto;
   height: 40vh;
-  grid-template-columns: 0.1fr 0.5fr 0.5fr 0.5fr;
-  grid-template-areas: "title work-1 work-1 work-1"
-                       "title work-2 work-3 work-4";
+  grid-template-columns: 0.1fr 0.5fr 0.5fr;
+  grid-template-areas: "title work-1 work-1"
+                       "title work-2 work-3"
+                       "title work-4 work-5";
 }
 
 
@@ -170,7 +171,7 @@ main section#work{
 }
 
 
-#work-1, #work-2, #work-3, #work-4 {
+#work-1, #work-2, #work-3, #work-4 , #work-5{
   border: var(--bg-theme) solid 5px;
   background-position: center;
   background-repeat: no-repeat;
@@ -213,6 +214,10 @@ a span{
   border-color: var(--theme-text);
 }
 
+#work-5:hover{
+  border-color: var(--theme-text);
+}
+
 #work-1{
   grid-area: work-1;
   background-image: url("/assets/images/horiseon.png");
@@ -232,6 +237,11 @@ a span{
 #work-4{
   grid-area: work-4;
   background-image: url("/assets/images/easyjet.png");
+}
+
+#work-5{
+  grid-area: work-5;
+  background-image: url("/assets/images/prison_visit.png");
 }
 
 /*work section end */
