@@ -111,7 +111,7 @@ section#banner{
   flex-direction: row;
   justify-content: right;
   align-items: center;
-  background-image: url('./assets/images/02-hero-bg.jpg');
+  background-image: url('../images/02-hero-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 200px;
@@ -220,28 +220,28 @@ a span{
 
 #work-1{
   grid-area: work-1;
-  background-image: url("./assets/images/horiseon.png");
+  background-image: url("../images/horiseon.png");
 }
 
 #work-2{
   grid-area: work-2;
-  background-image: url("./assets/images/civil_legal_aid.png");
+  background-image: url("../images/civil_legal_aid.png");
 }
 
 
 #work-3{
   grid-area: work-3;
-  background-image: url("./assets/images/courtfinder.png");
+  background-image: url("../images/courtfinder.png");
 }
 
 #work-4{
   grid-area: work-4;
-  background-image: url("./assets/images/easyjet.png");
+  background-image: url("../images/easyjet.png");
 }
 
 #work-5{
   grid-area: work-5;
-  background-image: url("./assets/images/prison_visit.png");
+  background-image: url("../images/prison_visit.png");
 }
 
 /*work section end */
