@@ -16,7 +16,7 @@ so that I can review them with clients on suitable candidates that meet their ne
 ## Wireframe
 No wireframe was provided but an example of the landing page design was provided
 
-![Bob-A-Job LLC initial design] (https://github.com/Pine-Box/BobAJobLLC/blob/main/assets/images/01-css-challenge-demo.gif)
+![Bob-A-Job LLC initial design](https://github.com/Pine-Box/BobAJobLLC/blob/main/assets/images/01-css-challenge-demo.gif)
 
 ## Acceptance Criteria
 
@@ -33,4 +33,4 @@ No wireframe was provided but an example of the landing page design was provided
 
 The following link to view Horiseon's Landing Page: [https://pine-box.github.io/BobAJobLLC/](https://pine-box.github.io/BobAJobLLC/)
 
-![Bob-A-Job LLC Landing Page] (https://github.com/Pine-Box/BobAJobLLC/blob/main/assets/images/bobajobllc.png)
+![Bob-A-Job LLC Landing Page](https://github.com/Pine-Box/BobAJobLLC/blob/main/assets/images/bobajobllc.png)
