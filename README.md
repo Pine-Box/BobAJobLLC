@@ -2,6 +2,10 @@
 
 ## Background
 
+A portfollio is to to be created from a design provided as guidance.
+
+This portfolio is a work in progress and therefore the data used is fake.
+
 ## User Story
 
 ```
