@@ -10,6 +10,7 @@ so that I can review them with clients on suitable candidates that meet their ne
 ```
 
 ## Wireframe
+No wireframe was provided but an example of the landing page design was provided
 
 
 ## Acceptance Criteria
